@@ -16,8 +16,8 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::factory()->create([
-            'name' => 'Ngoc Vu Tester 34',
-            'email' => 'tester04@phamngocvu.com',
+            'name' => 'Test User',
+            'email' => 'test@example.com',
         ]);
     }
 }
